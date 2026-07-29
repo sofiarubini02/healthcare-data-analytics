@@ -10,6 +10,10 @@ This project was developed as my Bachelor's Thesis and focuses on the analysis o
 - PostgreSQL relational database
 - Clinical data related to diabetes management
 
+## Dataset Availability
+
+The dataset used in this project contains anonymized healthcare records and is not publicly available. Therefore, only the SQL queries, project documentation, and project description are shared in this repository.
+
 ## Objectives
 
 - Analyze HbA1c monitoring coverage
