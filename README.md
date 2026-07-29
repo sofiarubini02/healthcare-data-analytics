@@ -82,18 +82,6 @@ Some of the main findings include:
 - Clinical Data Interpretation
 - Data Reporting
 
----
-
-## Repository Structure
-
-```
-healthcare-data-analytics/
-│
-├── README.md
-├── sql/
-├── images/
-└── docs/
-```
 
 ---
 
