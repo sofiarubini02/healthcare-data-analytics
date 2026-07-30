@@ -127,7 +127,7 @@ Percentage of patients with poor glycemic control across disease stages and age 
 ![Patients with HbA1c ≥9%](images/hba1c_above_9_percent_by_age_and_disease_stage.png)
 
 
-The complete SQL queries used to produce these analyses are available in the **sql/** directory.
+The complete SQL scripts used to produce these analyses are available in the `sql/` directory.
 
 ---
 
