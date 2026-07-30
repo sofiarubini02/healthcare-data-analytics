@@ -20,6 +20,21 @@ Using advanced SQL queries on PostgreSQL, I analyzed healthcare quality indicato
 > **Note:** The AMD-STITCH database was developed by the STITCH Research Center (Sapienza University of Rome) in collaboration with the Associazione Medici Diabetologi (AMD). My contribution focused on data analysis using the prepared PostgreSQL database.
 
 ---
+# Project Summary
+
+This project was developed as my Bachelor's Thesis at Sapienza University of Rome using the AMD-STITCH healthcare database, one of the largest Italian repositories of anonymized clinical data for patients with Type 2 Diabetes.
+
+The project applies advanced SQL analysis to investigate healthcare quality through real-world clinical data.
+
+The analyses focused on HbA1c monitoring, disease progression, regional variability, demographic differences, and healthcare quality indicators.
+
+Working with real-world clinical data required careful consideration of data quality, missing values, regional representativeness, and the ethical implications of interpreting healthcare information.
+
+The results showed that HbA1c monitoring improves considerably after patients enter specialized diabetes care, although significant regional and demographic differences remain. The analyses also suggest that increasing the number of HbA1c tests alone does not necessarily lead to better glycemic control, highlighting the importance of follow-up quality rather than testing frequency alone.
+
+Overall, this project demonstrates how SQL can be applied to large-scale healthcare databases to transform raw clinical data into meaningful insights supporting clinical research and healthcare decision-making.
+
+---
 
 # Project Objectives
 
