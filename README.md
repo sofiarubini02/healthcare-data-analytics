@@ -159,6 +159,12 @@ The AMD-STITCH database contains anonymized healthcare records and is **not publ
 For privacy and licensing reasons, this repository does **not** include the original dataset. Only the SQL analyses, documentation, and visualizations created during the project are shared.
 
 ---
+## Additional Documentation
+
+-  [Project Summary](docs/project_summary.md)
+-  [Bachelor's Thesis (Italian)](docs/Bachelor_Thesis_Healthcare_Data_Analytics.pdf)
+
+---
 
 # Author
 
