@@ -134,26 +134,6 @@ Percentage of patients with poor glycemic control across disease stages and age 
 - Data Visualization
 - Data Reporting
 
----
-
-# Repository Structure
-
-```
-healthcare-data-analytics/
-│
-├── sql/
-│   ├── README.md
-│   └── SQL queries
-│
-├── images/
-│   ├── hba1c_test_coverage.png
-│   ├── hba1c_vs_monitoring_by_region.png
-│   ├── hba1c_by_region_and_disease_stage.png
-│   ├── hba1c_monitoring_by_age_group.png
-│   └── hba1c_above_9_percent_by_age_and_disease_stage.png
-│
-└── README.md
-```
 
 ---
 
