@@ -9,13 +9,12 @@ Analysis of approximately **600,000 anonymized healthcare records** from the AMD
 
 ---
 
+
 # Overview
 
-This repository contains my Bachelor's Thesis project developed at **Sapienza University of Rome**.
+This repository contains my Bachelor's Thesis developed at Sapienza University of Rome.
 
-The project focuses on the analysis of the **AMD-STITCH healthcare database**, one of the largest Italian collections of anonymized clinical records related to **Type 2 Diabetes**.
-
-Using advanced SQL queries on PostgreSQL, I analyzed healthcare quality indicators, HbA1c monitoring, patient characteristics, disease progression, and regional differences to generate data-driven insights supporting healthcare research.
+Using SQL and PostgreSQL, I analyzed approximately 600,000 anonymized healthcare records from the AMD-STITCH database to investigate healthcare quality, HbA1c monitoring, disease progression, and demographic differences in patients with Type 2 Diabetes.
 
 > **Note:** The AMD-STITCH database was developed by the STITCH Research Center (Sapienza University of Rome) in collaboration with the Associazione Medici Diabetologi (AMD). My contribution focused on data analysis using the prepared PostgreSQL database.
 
@@ -127,6 +126,9 @@ Percentage of patients with poor glycemic control across disease stages and age 
 
 ![Patients with HbA1c ≥9%](images/hba1c_above_9_percent_by_age_and_disease_stage.png)
 
+
+The complete SQL queries used to produce these analyses are available in the **sql/** directory.
+
 ---
 
 # Technologies
@@ -159,10 +161,12 @@ The AMD-STITCH database contains anonymized healthcare records and is **not publ
 For privacy and licensing reasons, this repository does **not** include the original dataset. Only the SQL analyses, documentation, and visualizations created during the project are shared.
 
 ---
-## Additional Documentation
+# Additional Documentation
 
--  [Project Summary](docs/project_summary.md)
--  [Bachelor's Thesis (Italian)](docs/Bachelor_Thesis_Healthcare_Data_Analytics.pdf)
+For readers interested in a more detailed description of the project, the complete documentation is available below.
+
+-  **Project Summary** – Technical overview of the project, methodology, ethical considerations, and main findings.
+-  **Bachelor's Thesis (Italian)** – Complete thesis submitted to Sapienza University of Rome.
 
 ---
 
