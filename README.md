@@ -1,4 +1,4 @@
-# Healthcare Data Analytics
+# Healthcare Data Analytics using SQL
 
 Analysis of approximately **600,000 anonymized healthcare records** from the AMD-STITCH database using **SQL** and **PostgreSQL**.
 
