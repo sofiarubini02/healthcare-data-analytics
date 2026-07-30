@@ -1,44 +1,54 @@
 # Healthcare Data Analytics
 
+Analysis of approximately **600,000 anonymized healthcare records** from the AMD-STITCH database using **SQL** and **PostgreSQL**.
 
-## Overview
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
+![Database](https://img.shields.io/badge/Database-PostgreSQL-336791)
+![Healthcare](https://img.shields.io/badge/Domain-Healthcare-success)
+![Data](https://img.shields.io/badge/Data-600k%20Patients-orange)
 
-This repository contains my Bachelor's Thesis project developed at Sapienza University of Rome.
+---
 
-The project focuses on the analysis of the AMD-STITCH healthcare database, one of the largest Italian collections of anonymized clinical records related to Type 2 Diabetes. Using advanced SQL queries, I analyzed healthcare quality indicators, HbA1c monitoring, patient characteristics, and disease progression to generate data-driven insights supporting healthcare research.
+# Overview
+
+This repository contains my Bachelor's Thesis project developed at **Sapienza University of Rome**.
+
+The project focuses on the analysis of the **AMD-STITCH healthcare database**, one of the largest Italian collections of anonymized clinical records related to **Type 2 Diabetes**.
+
+Using advanced SQL queries on PostgreSQL, I analyzed healthcare quality indicators, HbA1c monitoring, patient characteristics, disease progression, and regional differences to generate data-driven insights supporting healthcare research.
 
 > **Note:** The AMD-STITCH database was developed by the STITCH Research Center (Sapienza University of Rome) in collaboration with the Associazione Medici Diabetologi (AMD). My contribution focused on data analysis using the prepared PostgreSQL database.
 
 ---
 
-## Project Objectives
+# Project Objectives
 
 The project aimed to:
 
-- Analyze diabetes monitoring using HbA1c indicators.
-- Evaluate the quality of care delivered to patients.
-- Study disease progression across different patient groups.
-- Identify demographic and regional trends.
-- Produce analytical insights through advanced SQL queries.
+- Analyze HbA1c monitoring throughout the patient care pathway.
+- Evaluate healthcare quality indicators.
+- Study disease progression.
+- Investigate demographic and regional differences.
+- Produce actionable insights through advanced SQL analysis.
 
 ---
 
-## Dataset
+# Dataset
 
-The analyses were performed on the AMD-STITCH database, a PostgreSQL database containing anonymized real-world clinical data collected from Italian diabetes centers.
+The analyses were performed on the AMD-STITCH PostgreSQL database containing anonymized real-world clinical records collected from Italian diabetes centers.
 
-Main characteristics:
+### Main characteristics
 
-- Approximately **600,000 patients** analyzed
+- Approximately **600,000 patients**
 - Data collected between **2005 and 2018**
 - Clinical, demographic and laboratory information
 - Fully anonymized healthcare records
 
 ---
 
-## Analysis Performed
+# Analysis Performed
 
-The project included analyses on:
+The project includes analyses on:
 
 - HbA1c monitoring coverage
 - Frequency of HbA1c testing
@@ -48,23 +58,63 @@ The project included analyses on:
 - Gender differences
 - Regional differences
 - Marital status analysis
-- Quality-of-care indicators
+- Healthcare quality indicators
 
 ---
 
-## Key Results
+# Key Results
 
-Some of the main findings include:
-
-- Around **27%** of patients received an HbA1c test during the year of diagnosis.
+- Approximately **27%** of patients received an HbA1c test during the year of diagnosis.
 - HbA1c monitoring increased substantially after the first specialist visit.
 - Younger patients generally showed poorer glycemic control.
 - Significant regional differences emerged in monitoring practices.
-- Testing frequency alone was not always associated with better HbA1c outcomes.
+- Monitoring frequency alone was not always associated with better HbA1c outcomes.
 
 ---
 
-## Technologies
+# Visualizations
+
+## HbA1c Test Coverage
+
+This chart shows how HbA1c monitoring improves throughout the patient care pathway.
+
+![HbA1c Test Coverage](images/hba1c_test_coverage.png)
+
+---
+
+## Relationship Between Monitoring Frequency and HbA1c
+
+Comparison between monitoring intensity and average HbA1c across Italian regions.
+
+![HbA1c vs Monitoring](images/hba1c_vs_monitoring_by_region.png)
+
+---
+
+## HbA1c by Region and Disease Stage
+
+Average HbA1c values across disease stages and Italian regions.
+
+![HbA1c by Region and Disease Stage](images/hba1c_by_region_and_disease_stage.png)
+
+---
+
+## Monitoring Frequency by Age Group
+
+Average HbA1c monitoring intensity across disease stages for different age groups.
+
+![Monitoring by Age Group](images/hba1c_monitoring_by_age_group.png)
+
+---
+
+## Patients with HbA1c ≥9%
+
+Percentage of patients with poor glycemic control across disease stages and age groups.
+
+![Patients with HbA1c ≥9%](images/hba1c_above_9_percent_by_age_and_disease_stage.png)
+
+---
+
+# Technologies
 
 - PostgreSQL
 - SQL
@@ -72,28 +122,50 @@ Some of the main findings include:
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
 - Advanced SQL
+- PostgreSQL
 - Relational Database Analysis
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Healthcare Analytics
 - Clinical Data Interpretation
+- Data Visualization
 - Data Reporting
 
+---
+
+# Repository Structure
+
+```
+healthcare-data-analytics/
+│
+├── sql/
+│   ├── README.md
+│   └── SQL queries
+│
+├── images/
+│   ├── hba1c_test_coverage.png
+│   ├── hba1c_vs_monitoring_by_region.png
+│   ├── hba1c_by_region_and_disease_stage.png
+│   ├── hba1c_monitoring_by_age_group.png
+│   └── hba1c_above_9_percent_by_age_and_disease_stage.png
+│
+└── README.md
+```
 
 ---
 
-## Dataset Availability
+# Dataset Availability
 
-The AMD-STITCH database contains anonymized healthcare records and is not publicly available.
+The AMD-STITCH database contains anonymized healthcare records and is **not publicly available**.
 
-For privacy and licensing reasons, this repository does **not** include the original dataset. Only project documentation and SQL queries developed for the analyses are shared.
+For privacy and licensing reasons, this repository does **not** include the original dataset. Only the SQL analyses, documentation, and visualizations created during the project are shared.
 
 ---
 
-## Author
+# Author
 
 **Sofia Rubini**
 
